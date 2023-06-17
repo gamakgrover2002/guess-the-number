@@ -3,14 +3,14 @@ let count = 0;
   const Random = ()=>{
   var x = Math.random()*10;
    y = parseInt(x);
-   console.log(y);
+  
   document.getElementById('information').innerText = "number generated"
   count = 0;
 
 }
 const Check = () =>{
 const guess = document.getElementById('input').value;
-console.log(guess);
+
 if(count < 3){
 if(guess == y){
 document.getElementById('result').innerText = "Congratulation correct awnser";
