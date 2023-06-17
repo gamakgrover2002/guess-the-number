@@ -1,0 +1,34 @@
+#btn2,#btn1{
+    width: 200px;
+    height: 50px;
+    border-style: double;
+    border-width: 5px;
+    border-color: aliceblue;
+ background-color: lightgrey;
+ border-radius: 10px;
+  }
+  #btn1:hover,#btn2:hover{
+    background-color: grey;
+    cursor: pointer;
+  }
+  input{
+    width: 100px;
+    height :50px;
+    font-size: 40px;
+    border-radius: 10px;
+     border: none;
+     outline: none;
+  }
+  #input:focus{
+    border:solid 7px palegreen;
+  }
+  body{
+    text-align: center;
+
+    color: white;
+    background-color: black;
+
+  }
+  ul{
+    list-style: none;
+  }
